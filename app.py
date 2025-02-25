@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 import textwrap
-from PIL import Iamge
+from PIL import Image
 import pathlib
 from dotenv import load_dotenv
 load_dotenv()
