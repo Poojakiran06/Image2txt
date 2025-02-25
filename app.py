@@ -22,7 +22,7 @@ def get_response(input, image):
 #Design the page
 st.header(":orange[Gemini Image to Text] Application")
 input = st.text_input("Input Prompt: ", key="input")
-uploaded_file = st.fileuploader("Upload an Image...",
+uploaded_file = st.file_uploader("Upload an Image...",
                                 type = ["jpg","png","jpeg"])
 
 #Display the iamge
