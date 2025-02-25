@@ -1,0 +1,4 @@
+streamlit
+python-dotenv # meant for local vars...
+google-generativeai
+#pip install -r requirements.txt
