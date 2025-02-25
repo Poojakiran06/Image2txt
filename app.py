@@ -34,7 +34,7 @@ if uploaded_file is not None:
 #create the submit button
 Submit=st.button("Magic")
 
-if submit:
+if Submit:
     response = get_response(input, image)
     st.subheader("The response is:")
     st.write(response)
